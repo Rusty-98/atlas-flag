@@ -26,7 +26,7 @@ const App = () => {
         <Search search={setQuery}/>
         <Drop region={setRegion} />
       </div>
-      <div className='flex flex-wrap gap-6 mt-12 ml-4'>
+      <div className='flex flex-wrap gap-6 mt-12 ml-4 mr-4 justify-center'>
         {arr}
       </div>
     </div>
