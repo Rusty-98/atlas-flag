@@ -19,7 +19,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className='pl-20 pr-20 flex justify-between items-center mt-4 text-xl'>
+            <div className='pl-1 md:pl-20 pr-1 md:pr-20 flex gap-1 md:gap-0 justify-between items-center mt-4 text-xl'>
                 <Search search={setQuery} />
                 <Drop region={setRegion} />
             </div>
