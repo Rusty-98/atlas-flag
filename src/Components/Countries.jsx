@@ -45,7 +45,7 @@ const Countries = () => {
       </div>
       <div className="flex flex-col md:flex-row mt-10 md:mt-20 px-5 gap-10 ">
         <div className="md:w-[30%]">
-          <img src={data.img} alt="India" />
+          <img src={data.img} className='w-full h-full' alt="India" />
         </div>
         <div className='md:w-[70%] text-2xl md:text-3xl flex flex-col gap-4'>
           <h1 className='font-extrabold text-4xl md:text-5xl text-center md:text-left'>{data.name}</h1>
